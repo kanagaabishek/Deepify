@@ -12,6 +12,7 @@ dependencies = [
     "langchain-openai>=1.7.4",
     "langgraph>=1.2.20",
     "pydantic>=2.14.3",
+    "duckduckgo-search>=8.1.1",
 ]
 
 [project.scripts]

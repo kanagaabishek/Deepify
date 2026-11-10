@@ -7,7 +7,7 @@ from deep.researcher.nodes import ResearchOutput, AnalysisOutput, CritiqueOutput
 load_dotenv()
 
 llm = ChatOpenAI(
-    model="meta-llama/llama-3.3-70b-instruct",
+    model="meta-llama/llama-3.1-8b-instruct",
     openai_api_key=os.environ["OPENROUTER_API_KEY"],
     openai_api_base="https://openrouter.ai/api/v1",
     max_retries=0,
